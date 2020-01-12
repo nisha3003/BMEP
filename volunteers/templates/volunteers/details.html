@@ -1,0 +1,14 @@
+{% extends 'volunteers/layout.html' %}
+
+{% block content %}
+<h3 class="center-align red lighten-3">{{volunteer.title}}</h3>
+<div class="card">
+  <div class="card-content">
+    {{volunteer.body}}
+  </div>
+  <div class="card-action">
+    {{volunteer.created_at}}
+  </div>
+</div>
+<a href="/volunteers" class="btn">Go back</a>
+{% endblock %}

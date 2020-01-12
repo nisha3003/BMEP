@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>BMEP WEBSITE</title>
+  </head>
+  <body>
+      <header id="header">
+         <div class="container">
+
+           <div id="logo" class="pull-left">
+             <a href="#hero"><img src="volunteers/img/logo.jpg" alt="" title="" /></img></a>
+           </div>
+
+           <nav id="nav-menu-container">
+             <ul class="nav-menu">
+               <li class="menu-active"><a href="#hero">Home</a></li>
+               <li><a href="#about">About Us</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#team">Team</a></li>
+               <li><a href="#contact">Contact Us</a></li>
+             </ul>
+           </nav><!-- #nav-menu-container -->
+         </div>
+       </header><!-- #header -->
+
+       <section id="hero">
+         <div class="hero-container">
+           <h1>Welcome to BMEP</h1>
+              <div class="paragraph" style="text-align:justify;"><font size="3">"A Volunteers driven Independent Initiative by Students of &nbsp;National Institute of Technology Durgapur
+                 aimed to mentor the Underprivileged Children in &amp; around the NIT Campus."</font><br /><br /></div>
+         </div>
+       </section><!-- #hero -->
+
+<div class="container">
+  {% block content %}
+  {% endblock %}
+  <br>
+
+  <a style="display:block" class="center-align" href="/admin">Admin Login</a>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
